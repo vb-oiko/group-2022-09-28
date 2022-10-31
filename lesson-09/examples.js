@@ -217,4 +217,4 @@ delete obj1.a;
 obj1.d = 10;
 obj1.b.c = 20;
 
-console.warn(obj1);
+// console.warn(obj1);
