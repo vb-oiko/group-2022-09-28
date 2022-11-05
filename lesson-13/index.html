@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrapper {
+            display: grid;
+            place-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        input {
+            display: block;
+            width: 100%;
+            border-radius: 0.375rem;
+            border-width: 1px;
+            border-color: black;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        }
+
+        button {
+            display: inline-flex;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            padding-left: 0.75rem;
+            padding-right: 0.75rem;
+            margin-left: 0.5rem;
+            background-color: #4F46E5;
+            color: #ffffff;
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+            font-weight: 500;
+            line-height: 1rem;
+            align-items: center;
+            border-radius: 0.375rem;
+            border-width: 1px;
+            border-color: transparent;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        }
+
+        button:hover {
+            background-color: #4338CA;
+        }
+
+        button:disabled {
+            background-color: #A5B4FC;
+        }
+
+        button:hover:disabled {
+            background-color: #A5B4FC;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="wrap1" class="wrapper">
+        <div class="container"></div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

@@ -139,25 +139,3 @@
 // Moment.js / date-fns.js / https://github.com/you-dont-need/You-Dont-Need-Momentjs
 // Popper.js
 // Lit / Polymer.js / Stencil.js
-
-// =======================
-
-// Порядок виконання та обробка помилок
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling
-// https://www.w3schools.com/js/js_errors.asp
-// try…catch, etc
-// throw, finally
-
-// JavaScript Exception Handling: Patterns & Best Practices
-// https://blog.bitsrc.io/javascript-exception-handling-patterns-best-practices-f7d6fcab735d
-// не зловживайте try…catch блоками
-// якщо використовуєте try…catch блок з асинхронними функціями додавайте завжди await
-// не використовуйте try…catch для управління ходом виконання програми
-// використовуйте віддалене логування
-
-// Unit-тестування
-// огляд підходу
-// приклади з Jest
-
-// https://www.browserstack.com/guide/unit-testing-in-javascript
-// https://www.youtube.com/watch?v=IEDe8jl5efU
