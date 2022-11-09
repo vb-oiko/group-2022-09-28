@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            line-height: 0;
+        }
+
+        div {
+            display: inline-block;
+            padding: 5px;
+
+            background: #fff;
+            border: 1px solid #aaa;
+            cursor: pointer;
+        }
+
+        div:hover {
+            border: 1px solid #faa;
+            background: #fdd;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div1">1
+        <div id="div2">2
+            <div id="div3">3
+                <div id="div4">4
+                    <div id="div5">5</div>
+                    <div data-menu-item="open_file" id="div51">5.1</div>
+                    <div id="div52">5.2</div>
+                    <div id="div53">5.3</div>
+                    <div id="div54">5.4</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./bubbling.js"></script>
+</body>
+
+</html>
