@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        br {
+            content: "A" !important;
+            display: block !important;
+            margin-bottom: 1.5em !important;
+        }
+    </style>
+</head>
+
+<body>
+    <form name="form1" action="" method="get">
+        <label for="product">Product name</label>
+        <input type="" id="product" name="product">
+        <br />
+
+        <input type="checkbox" name="isFragile1" id="isFragile2">
+        <label for="isFragile">Product is fragile</label>
+        <br />
+
+        <label for="category">Product category:</label>
+        <select name="category" id="category">
+            <option value="">Please choose a product category</option>
+            <option value="0">Fruits</option>
+            <option value="1">Vegetables</option>
+            <option value="2">Beer</option>
+            <option value="3">Water</option>
+            <option value="4">Chips</option>
+            <option value="5">Nuts</option>
+            <option value="6">Bread</option>
+        </select>
+        <br />
+
+
+        <label for="campaign">Campaign</label>
+        <select name="campaign" id="campaign" multiple>
+            <option value="0">Buy 3 pay for 2</option>
+            <option value="1">50% for the second piece</option>
+            <option value="2">Plus 10 bonus points</option>
+            <option value="3">10% discount for the next purchase</option>
+        </select>
+        <br />
+
+        <fieldset>
+            <legend>Choose your favorite monster</legend>
+            <input type="radio" name="package" value="envelope" id="envelope">
+            <label for="envelope">envelope</label>
+
+            <input type="radio" name="package" value="box" id="box">
+            <label for="box">box</label>
+
+            <input type="radio" name="package" value="package" id="package">
+            <label for="package">package</label>
+        </fieldset>
+        <br />
+
+        <br />
+        <button type="submit">Save</button>
+        <br />
+        <button type="reset">Reset</button>
+    </form>
+    <script src="./index.js"></script>
+</body>
+
+</html>
