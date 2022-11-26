@@ -1,0 +1,1 @@
+export const comp = () => (<div>Hello</div>)

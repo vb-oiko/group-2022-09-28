@@ -1,0 +1,33 @@
+{
+  "name": "group-2022-09-28",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jest.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gs": "git status && git add .",
+    "build": "babel lesson-19 -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vb-oiko/group-2022-09-28.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vb-oiko/group-2022-09-28/issues"
+  },
+  "homepage": "https://github.com/vb-oiko/group-2022-09-28#readme",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6"
+  }
+}
