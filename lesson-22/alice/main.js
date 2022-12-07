@@ -27,8 +27,8 @@ const alice3 = document.querySelector("#alice3");
 // });
 
 function animateAlice(alice) {
-  const { finished } = alice.animate(aliceTumbling, aliceTiming);
-  return finished;
+  const animation = alice.animate(aliceTumbling, aliceTiming);
+  return animation.finished;
 }
 
 // animateAlice(alice1)
@@ -37,9 +37,11 @@ function animateAlice(alice) {
 //   .then(() => console.warn("Finished"));
 
 async function animateAllAlice() {
-  await animateAlice(alice1);
+  const value = await animateAlice(alice1);
+  console.warn("value", value);
   await animateAlice(alice2);
   await animateAlice(alice3);
+  return 5;
 }
 
-animateAllAlice().then(() => console.warn("Finished"));
+animateAllAlice().then((value) => console.warn("Finished", value));
